@@ -9,15 +9,15 @@ import urequests as requests
 
 # Replace these with your Adafruit IO credentials
 ADAFRUIT_IO_URL = 'io.adafruit.com'
-ADAFRUIT_IO_USERNAME = "kathier03"  # Replace with your Adafruit IO username
-ADAFRUIT_IO_KEY =  "aio_dnhn40OE7wfXgOscT2z4hoVS2MHi"  # Replace with your Adafruit IO key
-FEED_NAME = "carloc" # Ensure it matches the feed name in Adafruit IO
+ADAFRUIT_IO_USERNAME = "************"  # Replace with your Adafruit IO username
+ADAFRUIT_IO_KEY =  "*********"  # Replace with your Adafruit IO key
+FEED_NAME = "*********" # Ensure it matches the feed name in Adafruit IO
 
 # Twilio SMS credentials
-recipient_num = "+919486689577"  # Replace with recipient's phone number
-sender_num = "+19785435166"  # Replace with your Twilio number
-auth_token = "13f1483f86890c805a6d2bb6bbe7b843"  # Replace with your Twilio Auth Token
-account_sid = "AC13279a68c73e6fa8143a4580aedaf641"  # Replace with your Twilio SID
+recipient_num = "+************"  # Replace with recipient's phone number
+sender_num = "+*************"  # Replace with your Twilio number
+auth_token = "************"  # Replace with your Twilio Auth Token
+account_sid = "*******************"  # Replace with your Twilio SID
 
 # MQTT Client ID
 mqtt_client_id = b'bps'
